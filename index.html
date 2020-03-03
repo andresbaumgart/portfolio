@@ -1,144 +1,33 @@
 <!DOCTYPE html>
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="content-script-type" content="text/javascript" />
-    <meta http-equiv="content-style-type" content="text/css" />
-    <meta http-equiv="Content-language" content="en" />
-    
-    <meta name="robots" content="index,follow" />
-    <meta name="description" content="André Baumgart | Photography | All rights reserved." />
-    <meta name="Keywords" content="Andre, André, Sebastian, Baumgart, Portfolio, Photography, Photographer, Fotografie, Fotograf, Fotojournalismus, Photojournalism, Nepal, Tibet, Street Photography, Documentary Photography, Dokumentarfotografie, Gallerie, Gallery" />
-    
-    <title>André Baumgart | Photography</title>
-    
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <link type="text/css" rel="stylesheet" href="css/menue.css" />
-    
-    <link rel="shortcut icon" href="favicon.ico" />
-</head>
-
-<body>
-        	<div id="center"></div>
-    <div id="all">
-        <div id="header">
-            <div id="title">
-		<a href="index.html">
-                <span class="title01">André Baumgart |</span>
-                <span class="title02">Photography</span>
-		</a>	
-            </div>
-            <div id="menue">
-                <div class='cssmenu'>
-                <ul>
-                    <li><span class="storiesbtn">stories</span>
-                <ul>
-		    <li><a href='stories/sonder365/gallery.html'><span>Sonder 365</span></a></li>
-		    <li><a href='stories/lifethroughwindows/gallery.html'><span>Life Through Windows</span></a></li>
-                    <li><a href='stories/barnarevisited/gallery.html'><span>Barna Revisited</span></a></li>
-                    <li><a href='stories/centrei-iv/gallery.html'><span>Centre I-IV</span></a></li>
-                    <li><a href='stories/fuelprizeriseinnepal/gallery.html'><span>Fuel Prize Rise in Nepal</span></a></li>
-                    <li><a href='stories/kathmandumarket/gallery.html'><span>Kathmandu Market</span></a></li>
-                    <li><a href='stories/friendshiphighway/gallery.html'><span>Friendship Highway</span></a></li>
-                    <li><a href='stories/thesquatterslaststand/gallery.html'><span>The Squatters´ Last Stand</span></a></li>
-                    <li><a href='stories/seeinghandsofnepal/gallery.html'><span>Seeing Hands of Nepal</span></a></li>
-                </ul>
-                </li>
-                    <li><a href='singles/gallery.html'><span>singles</span></a></li>
-                    <li><a href='contact.html'><span>contact</span></a></li>
-                </ul>
-                </div>
-            </div>
-		</div> 
-            <div id="main">
-
-		<div class="slider" id="main-slider"><!-- outermost container element -->
-			<div class="slider-wrapper"><!-- innermost wrapper element -->
-				<img src="images/DSCF1621.jpg" alt="First" class="slide" /><!-- slides -->
-				<img src="images/BA013347.jpg" alt="Second" class="slide" /><!-- slides -->
-				<img src="images/DSCF0410.jpg" alt="Third" class="slide" /><!-- slides -->
-				<img src="images/BA014669.jpg" alt="Fourth" class="slide" /><!-- slides -->
-				<img src="images/DSCF3616.jpg" alt="Fifth" class="slide" /><!-- slides -->
-				<img src="images/DSCF2020.jpg" alt="Sixth" class="slide" /><!-- slides -->
-				<img src="images/BA013819.jpg" alt="Seventh" class="slide" /><!-- slides -->
-				<img src="images/DSCF1339.jpg" alt="Eights" class="slide" /><!-- slides -->
-				<img src="images/IMG_1277.jpg" alt="Ninth" class="slide" /><!-- slides -->
-			</div>
-
-			<script> 
-
-			(function() {
-	
-				function Slideshow( element ) {
-					this.el = document.querySelector( element );
-					this.init();
-				}
-	
-				Slideshow.prototype = {
-					init: function() {
-						this.wrapper = this.el.querySelector( ".slider-wrapper" );
-						this.slides = this.el.querySelectorAll( ".slide" );
-						this.previous = this.el.querySelector( ".slider-previous" );
-						this.next = this.el.querySelector( ".slider-next" );
-						this.index = 0;
-						this.total = this.slides.length;
-						this.timer = null;
-			
-						this.action();
-						this.stopStart();	
-					},
-					_slideTo: function( slide ) {
-						var currentSlide = this.slides[slide];
-						currentSlide.style.opacity = 1;
-			
-					for( var i = 0; i < this.slides.length; i++ ) {
-							var slide = this.slides[i];
-							if( slide !== currentSlide ) {
-								slide.style.opacity = 0;
-							}
-						}
-					},
-					action: function() {
-						var self = this;
-						self.timer = setInterval(function() {
-							self.index++;
-							if( self.index == self.slides.length ) {
-								self.index = 0;
-							}
-							self._slideTo( self.index );
-				
-						}, 4700);
-					},
-					stopStart: function() {
-						var self = this;
-						self.el.addEventListener( "mouseover", function() {
-							clearInterval( self.timer );
-							self.timer = null;
-				
-						}, false);
-						self.el.addEventListener( "mouseout", function() {
-							self.action();
-				
-						}, false);
-					}
-		
-		
-				};
-	
-				document.addEventListener( "DOMContentLoaded", function() {
-		
-					var slider = new Slideshow( "#main-slider" );
-		
-				});
-	
-	
-			})();
-
-			</script>
-
-		</div>	
-	    </div>
+<html lang="en">
+	<head>
+		<title>André Baumgart</title>
+		<meta charset="UTF-8">
+       		<meta name="description" content="Portfolio">
+		<meta name="keywords" content="fotojournalismus, fotografie, photojournalism, photography">
+		<link rel="icon" type="image/ico" href="favicon.ico">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div id="home" class="panel">
+    	<div class="inner">
+        <div id="backgroundchange">
+            <div class="backgroundimg" id="back1"></div>
+            <div class="backgroundimg" id="back2"></div>
+            <div class="backgroundimg" id="back3"></div>
+            <div class="backgroundimg" id="back4"></div>
+            <div class="backgroundimg" id="back5"></div>
+        </div>
+    	</div>
 	</div>
-    </div>
-</body>
+		<div class="dropdown">
+			<a href="portfolio.html">
+  			<button class="dropbtn">André Baumgart</button>
+			</a>
+  			<div class="dropdown-content">
+    				<a href="portfolio.html">PORTFOLIO</a>
+    				<a href="contact.html">CONTACT</a>
+  			</div>
+		</div>
+	</body>
 </html>

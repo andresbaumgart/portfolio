@@ -1,0 +1,522 @@
+
+* {
+	text-decoration: none;
+}
+
+body {
+	background-color: #000000;
+	margin-top: 25px;
+	overflow-x: scroll;
+}
+
+p {
+	color: #ffffff;
+	font-size: 12px; 
+	font-family: Helvetica;	
+}
+
+img { 
+	margin-right: 10px;	
+	margin-top: 31px;
+   	display: inline;
+	z-index: 80;
+}
+
+
+
+
+
+
+
+
+
+/* ————————————————INDEX———————————————— */
+
+.panel {
+    	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    	color: white;
+    	height: 100%;
+    	min-width: 100%;
+    	text-align: center;
+    	display: table;
+    	margin: 0;
+    	background: #1c1c1c;
+    	padding: 0 0;
+}
+
+.panel .inner {
+    	display: table-cell;
+    	vertical-align: middle;
+}
+
+.backgroundimg {
+    	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	height: 100%;
+    	width: 100%;
+}
+
+#back1 {
+    	background: url("files/site/index1.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;	
+}
+
+#back2 {
+    	background: url("files/site/index2.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;	
+}
+
+#back3 {
+    	background: url("files/site/index3.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;	
+}
+
+#back4 {
+    	background: url("files/site/index4.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;	
+}
+
+#back5 {
+    	background: url("files/site/index5.jpg") no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;	
+}
+
+@keyframes backgroundchangeFadeInOut {
+  	0% {
+    	opacity:1;
+  	}
+  	17% {
+    	opacity:1;
+  	}
+  	25% {
+    	opacity:0;
+  	}
+  	92% {
+    	opacity:0;
+  	}
+  	100% {
+    	opacity:1;
+  	}
+}
+
+@-webkit-keyframes backgroundchangeFadeInOut {
+  	0% {
+    	opacity:1;
+  	}
+  	17% {
+    	opacity:1;
+  	}
+  	25% {
+    	opacity:0;
+  	}
+  	92% {
+    	opacity:0;
+  	}
+  	100% {
+    	opacity:1;
+  	}
+}
+
+#backgroundchange div:nth-of-type(1) {
+  	animation-delay: 8s;
+  	-webkit-animation-delay: 24s;
+}
+
+#backgroundchange div:nth-of-type(2) {
+  	animation-delay: 6s;
+  	-webkit-animation-delay: 18s;
+}
+
+#backgroundchange div:nth-of-type(3) {
+  	animation-delay: 4s;
+  	-webkit-animation-delay: 12s;
+}
+
+#backgroundchange div:nth-of-type(4) {
+  	animation-delay: 2s;
+  	-webkit-animation-delay: 6s;
+}
+
+#backgroundchange div:nth-of-type(5) {
+  	animation-delay: 0;
+  	-webkit-animation-delay: 0;
+}
+
+#backgroundchange div {
+	animation-name: backgroundchangeFadeInOut;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: s;
+	-webkit-animation-name: backgroundchangeFadeInOut;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 24s;
+}
+
+.dropbtn {
+    	background-color: transparent;
+    	color: white;
+    	padding: 14px;
+    	font-size: 16px;
+    	border: 1px;
+    	border-color: #ffffff;
+    	cursor: pointer;
+	margin-top: -18px;
+}
+
+.dropdown {
+    	position: relative;
+    	display: inline-block;
+}
+
+.dropdown-content {
+    	display: none;
+    	position: absolute;
+    	background-color: #ffffff;
+    	opacity: 0.6; 
+    	color: #000000
+    	min-width: 160px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    	color: black;
+    	padding: 12px 16px;
+    	text-decoration: none;
+    	font-size: 12px;
+    	font-family: Helvetica;
+    	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    	display: block;
+}
+
+.dropdown:hover .dropbtn {
+    	background-color: #ffffff;
+    	color: #BFBFBF;
+}
+
+
+
+
+
+
+/* ————————HEADER / BODY / NAVIGATION / FOOTER———————— */
+
+#header-wrap {
+	position: fixed;
+	margin-top: -25px;
+	margin-left: -8px;
+   	height: auto;
+   	width: 100%;
+   	z-index: 100;
+	background-color: #000000;
+}
+
+#header-elements {
+	margin-top: 20px;
+}
+
+#header {
+	color: #ffffff;
+	font-size: 12px;
+	font-family: Helvetica;
+	margin-top: 20px;
+	margin-left: 7px;
+	display: inline;
+}
+
+#contact-form {
+	display: inline;
+	alight: right
+}
+
+.contacttext {
+	color: #ffffff;
+	font-size: 12px; 
+	font-family:Helvetica;
+}
+
+#contactimage {
+	margin-top: -5px;
+	margin-left: -3px;
+}
+
+.white {
+	color: #000000;
+}
+
+.nav {
+	width: 100%;
+	color: #ffffff;
+	font-size: 11px;
+	font-family: Helvetica;
+	text-decoration: none;
+	display: inline;
+	margin-left: 6px;
+}
+
+.block {
+	display: inline-block;
+}
+
+a:hover { 
+    	color: #ef0000;
+}
+
+#footer {
+	color: #ffffff;
+	font-size: 9px;
+	font-family: Helvetica;
+	margin-top: 0px;
+}
+
+#footer-wrap {
+	margin-top: 20px;
+	margin-left: -8px;
+	margin-bottom: -10px;
+   	height: auto;
+   	width: 100%;
+   	z-index: 100;
+	background-color: #000000;
+	position: fixed;
+	bottom:10px;
+}
+
+#footer-wrap-series {
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+   	height: auto;
+   	width: 100%;
+   	z-index: 100;
+	background-color: #000000;
+	position: fixed;
+	bottom:0px;
+}
+
+
+
+
+
+
+
+
+/* ————————————————THUMBS———————————————— */
+
+.thumbs { 
+  	border:1px solid #494949;	
+	margin-top: -2px;
+   	display: inline;
+	z-index: 80
+}
+
+#gallery-wrapper {
+	position: absolute;
+	top: 60px;
+	left: -5px;
+	width: 1300px;
+	height: 845px;
+}
+
+ul.img-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+}
+
+ul.img-list li {
+	display: inline-block;
+	height: 133px;
+	margin: 0 0 0 0;
+	position: relative;
+	width: 400px;	
+}
+
+span.text-content {
+	background: rgba(0,0,0,0.9);
+	color: white;
+	cursor: pointer;
+	display: table;
+	height: 266px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 400px;
+	opacity: 0;	
+}
+
+span.text-content span {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+	opacity: 1;
+	margin-left:1px;
+	margin-top:-1px;
+}
+
+
+
+
+
+
+
+
+/* ————————————————GALLERIES———————————————— */
+
+figure {
+	display: inline-block;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: Helvetica;
+	font-size: 11px;
+	color: #D2D2D2;
+}
+
+.info-button {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	color: #ffffff;
+	opacity: 0.3;
+	font-family: Helvetica;
+	font-size: 10px;
+	z-index: 96;
+	position:fixed;
+	top: 57px;
+	right: 0px;
+	margin-right: -3px;
+	text-align: center;
+	line-height: 49px;	
+}
+
+.info-button:hover {
+	opacity: 0.99;
+}
+
+.info-button-background {
+	background: rgba(0,0,0,0.9);
+	cursor: pointer;
+	display: table;
+	height: 570px;
+	width: 440px;
+	right: 0;
+	position: fixed;
+	top: 26px;
+	opacity: 0;
+	margin-top: 30px;
+	padding-left: 25px;
+	padding-right: 70px;		
+}
+
+.info-button:hover + .info-button-background {
+	opacity: 0.999;
+}
+
+#info-content {
+	font-family: Helvetica;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-top: 50px;
+}
+
+.project-title {
+	color: #ffffff;
+	font-family: Helvetica;
+}
+
+#container-singles {
+    	width: 38470px;
+    	height: 670px;
+    	position:relative;
+    	z-index: 97;
+	top: -15px;
+}
+
+#container-sphere {
+    	width: 10970px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-sonder {
+    	width: 28330px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-barna {
+    	width: 19190px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-centre {
+    	width: 16448px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-friendshiphighway {
+    	width: 21018px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-kathmandumarket {
+    	width: 18276px;
+    	height: 657px;
+	
+    	position:relative;
+}
+
+#container-fuelprizeriseinnepal {
+    	width: 21932px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-seeinghandsofnepal {
+    	width: 12793px;
+    	height: 657px;
+    	position:relative;
+}
+
+#container-thesquatterslaststand {
+    	width: 13707px;
+    	height: 657px;
+    	position:relative;
+}
+
+
+
