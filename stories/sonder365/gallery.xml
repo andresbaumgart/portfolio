@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	resizeOnImport="false"
+	useFlickr="false"
+	cropToFit="false"
+	indexPageName="index.html"
+	thumbPosition="NONE"
+	titlePosition="NONE"
+	captionPosition="NONE"
+	buttonBarPosition="NONE"
+	buttonBarVAlign="TOP"
+	buttonBarHAlign="LEFT"
+	showNavButtons="false"
+	showAutoPlayButton="false"
+	showOpenButton="false"
+	showFullscreenButton="false"
+	buttonBarScale="1.4"
+	buttonBarBackOpacity="0.5"
+	buttonBarPadding="-20"
+	showImageNav="NEVER"
+	showToolTips="false"
+	imageScaleMode="FILL"
+	showOverlay="NEVER"
+	imageTransitionType="SLIDE"
+	imageFrameStyle="SQUARE"
+	frameWidth="0"
+	stageBorder="0"
+	imageTransitionTime="1"
+	hideOverlayOnTransition="false"
+	galleryWidth="900"
+	galleryHeight="598"
+	backgroundColor="000000"
+	useFlash="false"
+	useColorCorrection="false"
+	galleryStyle="MODERN"
+	flashBrightness="0"
+	imageSmoothing="false"
+	imageNavStyle="CURSOR"
+	imageNavColor="FFFFFF"
+	showBigPlayButton="false"
+	showDownloadButton="false"
+	showAudioButton="false"
+	floatButtonBar="false"
+	captionFontSize="11"
+	displayTime="9"
+	goNextOnAutoPlay="false"
+	showBackButton="false"
+	mobileShowThumbs="false"
+	thumbNavStyle="NONE"
+	imageClickMode="NAVIGATE"
+	imageDropShadow="false"
+	imagePreloading="NEXT"
+	floatCaption="false"
+	showImageNumber="false"
+	enableCaptionLinks="false"
+	enableKeyboardControls="false"
+	lockTopStack="false"
+	lockBottomStack="false"
+	thumbDropShadow="false"
+	showThumbVisited="false"
+	showThumbLoadBar="false"
+	doThumbPopOut="false"
+	autoPlayThumbs="false"
+	showAutoPlayStatus="false"
+
+>
+  <image imageURL="images/BA015368.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013819.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA012716.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA011537.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA011635.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA012850.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA012859.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA011526.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013338.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013336.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA011965.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA012916.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013347.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013355.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013652.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013655.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013747.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013683.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013827.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013839.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013846.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA014185.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA013725.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA014784.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF0648.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA014830.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1029.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/BA011274.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+ 
+</simpleviewergallery>

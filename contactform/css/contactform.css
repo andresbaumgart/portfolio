@@ -1,0 +1,75 @@
+.ui-datepicker { font-size:9pt !important}
+
+body{
+	background-color:#f7f7f7;
+}
+
+#contactform{
+	width:300px;
+	margin:auto;
+	padding:30px;
+	background-color:#090909;
+}
+
+.element{
+	margin-right:10px;
+	margin-bottom:6px;
+	padding:2px 2px 4px 4px;
+}
+
+.label{
+	display:block;
+}
+
+.captcha_img{
+	border:1px solid #ddd;
+}
+
+.submit{
+	cursor:pointer;
+}
+
+.option-container input[type=radio], .option-container input[type=checkbox]{
+	margin-right:6px;
+}
+
+.required{
+	color:#990000;
+	margin-right:6px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/***** VALIDATION & ERROR MESSAGES *****/
+
+#validation{
+	display:none;
+	background:url('../img/loading.gif') no-repeat 0 1px;
+	padding-left:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+
+.errormessage, .validationmessage{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:8px;
+}
+
+.errormessage{
+	display:none;
+	margin:4px 0;
+	width:162px;
+}
+
+.validationmessage{
+	width:260px;
+	margin-bottom:16px;
+	padding:10px 6px;
+}
+
+
+.validationmessage{background-color:#f3fbe9; border:1px solid #8cce3b; color:#285c00;}
+
+.errormessage{background-color:#fff0f0; border:1px solid #f66767; color:#d50a0a; padding:4px 6px;}
+

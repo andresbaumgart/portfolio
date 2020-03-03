@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	resizeOnImport="false"
+	useFlickr="false"
+	cropToFit="false"
+	indexPageName="index.html"
+	thumbPosition="NONE"
+	titlePosition="NONE"
+	captionPosition="NONE"
+	buttonBarPosition="NONE"
+	buttonBarVAlign="TOP"
+	buttonBarHAlign="LEFT"
+	showNavButtons="false"
+	showAutoPlayButton="false"
+	showOpenButton="false"
+	showFullscreenButton="false"
+	buttonBarScale="1.4"
+	buttonBarBackOpacity="0.5"
+	buttonBarPadding="-20"
+	showImageNav="NEVER"
+	showToolTips="false"
+	imageScaleMode="FILL"
+	showOverlay="NEVER"
+	imageTransitionType="SLIDE"
+	imageFrameStyle="SQUARE"
+	frameWidth="0"
+	stageBorder="0"
+	imageTransitionTime="1"
+	hideOverlayOnTransition="false"
+	galleryWidth="900"
+	galleryHeight="598"
+	backgroundColor="000000"
+	useFlash="false"
+	useColorCorrection="false"
+	galleryStyle="MODERN"
+	flashBrightness="0"
+	imageSmoothing="false"
+	imageNavStyle="CURSOR"
+	imageNavColor="FFFFFF"
+	showBigPlayButton="false"
+	showDownloadButton="false"
+	showAudioButton="false"
+	floatButtonBar="false"
+	captionFontSize="9"
+	displayTime="9"
+	goNextOnAutoPlay="false"
+	showBackButton="false"
+	mobileShowThumbs="false"
+	thumbNavStyle="NONE"
+	imageClickMode="NAVIGATE"
+	imageDropShadow="false"
+	imagePreloading="NEXT"
+	floatCaption="false"
+	showImageNumber="false"
+	enableCaptionLinks="false"
+	enableKeyboardControls="false"
+	lockTopStack="false"
+	lockBottomStack="false"
+	thumbDropShadow="false"
+	showThumbVisited="false"
+	showThumbLoadBar="false"
+	doThumbPopOut="false"
+	autoPlayThumbs="false"
+	showAutoPlayStatus="false"
+
+>
+  <image imageURL="images/text.png"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000009.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000013.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000021.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000016.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000010.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000033.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000024.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/F1000036.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1522.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1550.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1468.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1488.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1489.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1498.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1754.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1679.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1745.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1622.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1584.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1588.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1604.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1605.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1768.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>

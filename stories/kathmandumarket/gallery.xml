@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery 
+
+	resizeOnImport="false"
+	useFlickr="false"
+	cropToFit="false"
+	indexPageName="index.html"
+	thumbPosition="NONE"
+	titlePosition="NONE"
+	captionPosition="NONE"
+	buttonBarPosition="NONE"
+	buttonBarVAlign="TOP"
+	buttonBarHAlign="LEFT"
+	showNavButtons="false"
+	showAutoPlayButton="false"
+	showOpenButton="false"
+	showFullscreenButton="false"
+	buttonBarScale="1.4"
+	buttonBarBackOpacity="0.5"
+	buttonBarPadding="-20"
+	showImageNav="NEVER"
+	showToolTips="false"
+	imageScaleMode="FILL"
+	showOverlay="NEVER"
+	imageTransitionType="SLIDE"
+	imageFrameStyle="SQUARE"
+	frameWidth="0"
+	stageBorder="0"
+	imageTransitionTime="1"
+	hideOverlayOnTransition="false"
+	galleryWidth="900"
+	galleryHeight="598"
+	backgroundColor="000000"
+	useFlash="false"
+	useColorCorrection="false"
+	galleryStyle="MODERN"
+	flashBrightness="0"
+	imageSmoothing="false"
+	imageNavStyle="CURSOR"
+	imageNavColor="FFFFFF"
+	showBigPlayButton="false"
+	showDownloadButton="false"
+	showAudioButton="false"
+	floatButtonBar="false"
+	captionFontSize="11"
+	displayTime="9"
+	goNextOnAutoPlay="false"
+	showBackButton="false"
+	mobileShowThumbs="false"
+	thumbNavStyle="NONE"
+	imageClickMode="NAVIGATE"
+	imageDropShadow="false"
+	imagePreloading="NEXT"
+	floatCaption="false"
+	showImageNumber="false"
+	enableCaptionLinks="false"
+	enableKeyboardControls="false"
+	lockTopStack="false"
+	lockBottomStack="false"
+	thumbDropShadow="false"
+	showThumbVisited="false"
+	showThumbLoadBar="false"
+	doThumbPopOut="false"
+	autoPlayThumbs="false"
+	showAutoPlayStatus="false"
+
+>
+  <image imageURL="images/text.png"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2020.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2071.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2052.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2032.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2028.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2026.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2095.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2100.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2629.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF1990.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2576.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2588.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2625.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2581.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2589.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2606.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2599.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2608.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/DSCF2645.jpg"
+	linkTarget="_blank">
+    <caption><![CDATA[]]></caption>
+  </image>
+ </simpleviewergallery>
