@@ -271,10 +271,11 @@ img {
 .nav {
 	width: 100%;
 	color: #ffffff;
-	float: right;
 	font-size: 11px;
 	font-family: Helvetica;
 	text-decoration: none;
+	display: inline;
+	margin-left: 6px;
 }
 
 .block {
