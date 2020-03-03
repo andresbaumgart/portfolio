@@ -274,7 +274,7 @@ img {
 	font-size: 11px;
 	font-family: Helvetica;
 	text-decoration: none;
-	float: right;
+	display: inline;
 	margin-right: 6px;
 }
 
