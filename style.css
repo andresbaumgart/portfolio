@@ -275,7 +275,8 @@ img {
 	font-family: Helvetica;
 	text-decoration: none;
 	display: inline;
-	margin-left: 6px;
+	float: right;
+	margin-right: 6px;
 }
 
 .block {
