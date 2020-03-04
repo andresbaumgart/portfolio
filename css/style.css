@@ -1,16 +1,25 @@
-body,html,h1,h2,h3,h4,h5,h6 {
+body,html{
 	height: 100%;
 	color: #ffffff;
 	background-color: #000000;
 	line-height:1.0;
-	font-size:16px;
+	font-size:15px;
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-p {
+
+
+/* Font contact form  */
+.w3-medium {
+	font-size:16px!important;
+}
+
+
+
+/* Font image caption  */
+.w3-large {
+	font-size:25px!important;
 	color: #ffffff;	
 }
 
-.w3-large {
-	font-size:25px!important
-}
+
