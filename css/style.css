@@ -34,4 +34,5 @@ ab:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
+  cursor: pointer;
 }
