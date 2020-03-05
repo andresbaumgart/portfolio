@@ -23,3 +23,15 @@ body,html{
 }
 
 
+/* Email  */
+ab:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ab:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
