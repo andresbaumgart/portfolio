@@ -7,21 +7,16 @@ body,html{
 	font-family: "Helvetica", Tahoma, sans-serif;
 }
 
-
-
 /* Font contact form  */
 .w3-medium {
 	font-size:14px!important;
 }
-
-
 
 /* Font image caption  */
 .w3-large {
 	font-size:14px!important;
 	color: #ffffff;	
 }
-
 
 /* Email  */
 ab:link {
@@ -36,7 +31,6 @@ ab:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
 
 .fancybox .fancybox-skin {
   box-shadow: 0 0 50px #222;
