@@ -24,11 +24,11 @@
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 48s linear infinite 0s;
-    -moz-animation: imageAnimation 48s linear infinite 0s;
-    -o-animation: imageAnimation 48s linear infinite 0s;
-    -ms-animation: imageAnimation 48s linear infinite 0s;
-    animation: imageAnimation 48s linear infinite 0s; 
+    -webkit-animation: imageAnimation 49s linear infinite 0s;
+    -moz-animation: imageAnimation 49s linear infinite 0s;
+    -o-animation: imageAnimation 49s linear infinite 0s;
+    -ms-animation: imageAnimation 49s linear infinite 0s;
+    animation: imageAnimation 49s linear infinite 0s; 
 }
 .cb-slideshow li div { 
     z-index: 1000;
@@ -39,18 +39,18 @@
     text-align: center;
     opacity: 0;
     color: #fff;
-    -webkit-animation: titleAnimation 48s linear infinite 0s;
-    -moz-animation: titleAnimation 48s linear infinite 0s;
-    -o-animation: titleAnimation 48s linear infinite 0s;
-    -ms-animation: titleAnimation 48s linear infinite 0s;
-    animation: titleAnimation 48s linear infinite 0s; 
+    -webkit-animation: titleAnimation 49s linear infinite 0s;
+    -moz-animation: titleAnimation 49s linear infinite 0s;
+    -o-animation: titleAnimation 49s linear infinite 0s;
+    -ms-animation: titleAnimation 49s linear infinite 0s;
+    animation: titleAnimation 49s linear infinite 0s; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../../portfolio/img0013.jpg) 
+    background-image: url(../../portfolio/img0015.jpg) 
 }
 
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../../portfolio/img0015.jpg);
+    background-image: url(../../portfolio/img0027.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -58,7 +58,7 @@
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../../portfolio/img0010.jpg);
+    background-image: url(../../portfolio/img0046.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -66,7 +66,7 @@
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../../portfolio/img0046.jpg);
+    background-image: url(../../portfolio/img0010.jpg);
     -webkit-animation-delay: 18s;
     -moz-animation-delay: 18s;
     -o-animation-delay: 18s;
@@ -74,7 +74,7 @@
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../../portfolio/img0027.jpg);
+    background-image: url(../../portfolio/img0013.jpg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -82,7 +82,7 @@
     animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(6) span { 
-    background-image: url(../../portfolio/img0041.jpg);
+    background-image: url(../../portfolio/img0054.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
@@ -90,7 +90,7 @@
     animation-delay: 30s; 
 }
 .cb-slideshow li:nth-child(7) span { 
-    background-image: url(../../portfolio/img0054.jpg);
+    background-image: url(../../portfolio/img0041.jpg);
     -webkit-animation-delay: 36s;
     -moz-animation-delay: 36s;
     -o-animation-delay: 36s;
@@ -98,7 +98,7 @@
     animation-delay: 36s; 
 }
 .cb-slideshow li:nth-child(8) span { 
-    background-image: url(../../portfolio/img0028.jpg);
+    background-image: url(../../portfolio/img0053.jpg);
     -webkit-animation-delay: 42s;
     -moz-animation-delay: 42s;
     -o-animation-delay: 42s;
@@ -195,7 +195,7 @@
 @keyframes imageAnimation { 
     0% { opacity: 0;
     animation-timing-function: ease-in; }
-    8% { opacity: 1;
+    5% { opacity: 1;
          animation-timing-function: ease-out; }
     17% { opacity: 1 }
     25% { opacity: 0 }
