@@ -3,13 +3,13 @@ body,html{
 	color: #ffffff;
 	background-color: #000000;
 	line-height:1.0;
-	font-size:14px;
-	font-family: "Helvetica", Tahoma, sans-serif;
+	font-size:10px;
+	font-family: "Arial", Tahoma, sans-serif;
 }
 
 /* Font contact form  */
 .w3-medium {
-	font-size:14px!important;
+	font-size:13px!important;
 }
 
 /* Font image caption  */
@@ -40,3 +40,74 @@ ab:hover {
   max-width: 700px;
   margin: 0 auto;
 }
+
+
+
+.container{
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 30px 30px 10px 20px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    	text-align: left;
+}
+.container > header h1{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    	padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+
+}
+.container > header h2, p.info{
+	font-size: 16px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+/* Header Style */
+.codrops-top{
+	font-family: Arial, sans-serif;
+	line-height: 30px;
+	font-size: 11px;
+	width: 100%;
+	background: #000;
+	opacity: 0.9;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	-moz-box-shadow: 1px 0px 2px #000;
+	-webkit-box-shadow: 1px 0px 2px #000;
+	box-shadow: 1px 0px 2px #000;
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #ddd;
+	display: block;
+	float: left;
+}
+.codrops-top a:hover{
+	color: #fff;
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: none;
+	display: inline;
+}
+
+
