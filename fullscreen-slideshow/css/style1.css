@@ -46,11 +46,11 @@
     animation: titleAnimation 49s linear infinite 0s; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/img0015x.jpg) 
+    background-image: url(../../portfolio/img0015.jpg) 
 }
 
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../images/img0027x.jpg);
+    background-image: url(../../portfolio/img0027.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
