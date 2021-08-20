@@ -162,6 +162,14 @@
     -ms-animation-delay: 42s;
     animation-delay: 42s; 
 }
+}
+.cb-slideshow li:nth-child(9) div { 
+    -webkit-animation-delay: 48s;
+    -moz-animation-delay: 48s;
+    -o-animation-delay: 48s;
+    -ms-animation-delay: 48s;
+    animation-delay: 48s; 
+}
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
