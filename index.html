@@ -6,47 +6,65 @@
 <meta name="description" content="Photography Portfolio">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <link rel="icon" type="image/png" href="resources/favicon.png">
-<link rel="stylesheet" type="text/css" href="fullscreen-slideshow/css/demo.css">
-<link rel="stylesheet" type="text/css" href="fullscreen-slideshow/css/style1.css">
-<script type="text/javascript" src="fullscreen-slideshow/js/modernizr.custom.86080.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="vanilla-slideshow-master/css/vanillaSlideshow.css">
+<script src="vanilla-slideshow-master/js/vanillaSlideshow.min.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29879823-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-29879823-2');
 </script>
 
 <body id="page">
 
-	<ul class="cb-slideshow">
-		<li><span>Image 01</span></li>
-		<li><span>Image 02</span></li>
-            	<li><span>Image 03</span></li>
-            	<li><span>Image 04</span></li>
-            	<li><span>Image 05</span></li>
-            	<li><span>Image 06</span></li>
-            	<li><span>Image 07</span></li>
-            	<li><span>Image 08</span></li>
-            	<li><span>Image 09</span></li>
-            	<li><span>Image 10</span></li>
-            	<li><span>Image 11</span></li>
-            	<li><span>Image 12</span></li>
-            	<li><span>Image 13</span></li>
-        </ul>
-
-        <div class="container">
-            	<div class="codrops-top">
-                	<a href="index.html"><strong>André Baumgart</strong></a>
-                	<span class="right">
-                    		<a href="portfolio.html">Portfolio</a>
-                    		<a href="portfolio.html#contact">Contact</a>
+<div class="container">
+	<div class="codrops-top">
+		<a href="index.html"><strong>André Baumgart</strong></a>
+			<span class="right">
+				<a href="portfolio.html">Portfolio</a>
+				<a href="portfolio.html#contact">Contact</a>
                		 </span>
                 	<div class="clr"></div>
-            	</div>
-        </div>
+	</div>
+</div>
+
+<div id="vanilla-slideshow-container">
+	<div id="vanilla-slideshow">
+		<div class="vanilla-slide"><img src="portfolio/img0073.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0015.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0062.jpg" alt="X"></div>	
+		<div class="vanilla-slide"><img src="portfolio/img0010.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0049.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0027.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0061.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0013.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0041.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0007.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0009.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0044.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0046.jpg" alt="X"></div>
+		<div class="vanilla-slide"><img src="portfolio/img0055.jpg" alt="X"></div>
+	</div>
+
+	<div id="vanilla-indicators"></div>
+	<div id="vanilla-slideshow-previous"><img src="resources/arrow-previous.png" alt="slider arrow"></div>
+	<div id="vanilla-slideshow-next"><img src="resources/arrow-next.png" alt="slider arrow"></div>
+</div>
+
+<script src="vanilla-slideshow-master/js/vanillaSlideshow.min.js"></script>
+<script>
+	vanillaSlideshow.init({
+		slideshow: true,
+		delay: 5000,
+		arrows: true,
+		indicators: true,
+		random: false,
+		animationSpeed: '1s'
+	});
+</script>
 
 </body>
 </html>
