@@ -26,8 +26,6 @@ container{
 	clear: both;
 }
 
-
-
 /* VANILLA SLIDESHOW */
 
 #vanilla-slideshow-container { 
@@ -107,7 +105,7 @@ container{
 	display: inline-block;
 	position: absolute;
 	margin-left: -123px;
-	bottom: 45px;
+	bottom: 50px;
 }
 
 .vanilla-indicators {
@@ -119,6 +117,7 @@ container{
 	float: left;
 	margin-right: 6px;
 	cursor: pointer;
+	opacity: 0.5;
 }
 
 .vanilla-indicators.vanilla-active {
