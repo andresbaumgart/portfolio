@@ -102,24 +102,29 @@ container{
 
 /* INDICATORS */
 #vanilla-indicators {
+	z-index: 999; 
 	display: inline-block;
 	position: absolute;
-	margin-left: -123px;
-	bottom: 50px;
+	position: absolute;
+	left: 150px;
+	top: -3%;
+	width: 200px;
+	height: 50px;
+
 }
 
 .vanilla-indicators {
 	box-shadow: 0 0 0px #333333;
-	width: 8px;
-	height: 8px;
+	width: 4px;
+	height: 4px;
 	border-radius: 100%;
-	border: 2px solid #ffffff;
+	border: 1px solid #000;
 	float: left;
-	margin-right: 6px;
+	margin-right: 5px;
 	cursor: pointer;
 	opacity: 0.5;
 }
 
 .vanilla-indicators.vanilla-active {
-	background-color: #ffffff;
+	background-color: #000;
 }
