@@ -117,7 +117,7 @@ container{
 	box-shadow: 0 0 0px #333333;
 	width: 4px;
 	height: 4px;
-	border-radius: 100%;
+	border-radius: 50%;
 	border: 1px solid #000;
 	float: left;
 	margin-right: 3px;
