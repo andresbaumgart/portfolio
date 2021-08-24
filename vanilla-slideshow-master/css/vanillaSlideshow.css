@@ -106,21 +106,20 @@ container{
 	display: inline-block;
 	position: absolute;
 	position: absolute;
-	left: 140px;
+	left: 135px;
 	top: -20px;
 	width: 200px;
 	height: 50px;
-
 }
 
 .vanilla-indicators {
 	box-shadow: 0 0 0px #333333;
-	width: 4px;
-	height: 4px;
+	width: 2px;
+	height: 3px;
 	border-radius: 50%;
 	border: 1px solid #000;
 	float: left;
-	margin-right: 3px;
+	margin-right: 1px;
 	cursor: pointer;
 }
 
