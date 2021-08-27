@@ -86,3 +86,7 @@ a{
 .codrops-top span.right{
 	float: right;
 }
+
+.portfolio{
+	image-rendering: -webkit-optimize-contrast;
+}
