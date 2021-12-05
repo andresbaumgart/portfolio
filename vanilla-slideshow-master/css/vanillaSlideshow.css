@@ -60,6 +60,7 @@ container{
 	transform: translateY(-50%);
 	top: 50%;
 	left: 0;
+	image-rendering: pixelated;
 }
 
 @media screen and (max-width: 1024px) { 
