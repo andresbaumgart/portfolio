@@ -1,44 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<title>André Baumgart – Portfolio</title>
-<meta charset="UTF-8">
-<meta name="description" content="Photography Portfolio">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="resources/favicon/favicon-16x16.png">
-<link rel="manifest" href="resources/favicon/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="css/w3.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-29879823-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>André Baumgart – Portfolio</title>
+    <link rel="icon" href="img/fav.png" type="image/x-icon">
 
-  gtag('config', 'UA-29879823-2');
-</script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/w3.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="fancybox-master/dist/jquery.fancybox.min.css">
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
 <body>
 
-<div class="w3-top">
-       	<div class="container">
-         	<div class="codrops-top">
-               		<a href="index.html"><strong>André Baumgart</strong></a> 
-               		<span class="right">
-                    		<a href="portfolio.html">Portfolio</a>
-                    		<a href="#contact">Contact</a>
-                	</span>
-                	<div class="clr"></div>
-            	</div>
-     </div>
-</div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
 
+    <div class="container-fluid">
+
+        <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+        </header>
+        <!-- end box-header -->
+
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+            	<li><a href="portfolio.html">Portfolio</a> <i class="ion-ios-circle-filled color"></i></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+    </div>
+
+    <!-- portfolio -->
+
+<div class="gallery">
 <div class="w3-content w3-container w3-padding-64x" id="portfolio"></div>
     		
   	<div class="w3-row-padding w3-center w3-section-firstrow fancybox-navigation">
@@ -208,8 +240,7 @@
     		<div class="w3-col m3"><a href="portfolio/img0005.jpg" data-fancybox="gallery" class ="lightbox" data-caption="Kathmandu, 2011."><img src="thumbnails/img0005t.jpg" alt="" class="w3-hover-opacity" style="width: 100%"/></a></div>
     		<div class="w3-col m3"><a href="portfolio/img0002.jpg" data-fancybox="gallery" class ="lightbox" data-caption="Kathmandu, 2011."><img src="thumbnails/img0002t.jpg" alt="" class="w3-hover-opacity" style="width: 100%"/></a></div>
   	</div>
-
-<hr>
+</div>
 
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   	<span class="w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -219,35 +250,32 @@
   	</div>
 </div>
 
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  	<div class="w3-row w3-padding-32 w3-section">
-    		<div class="w3-col m4 w3-container">
-      			<img src="resources/contact_2.png" class="w3-image" style="width:370px">
-    		</div>
-    <div class="w3-col m8 w3-panel">
-      	<div class="w3-medium w3-margin-bottom" style="color:#000">
-		</br> 
-        	</i> Hello! I am living Vienna, Austria. Contact me via:<br></br>        
-        	</i> <ab href="mailto:mail@andrebaumgart.com" target="_top">mail@andrebaumgart.com</ab><br></br>
-      	</div>
-      	<form action="https://formspree.io/mjvrjknd" method="POST">
-        	<div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          		<div class="w3-half">
-            			<input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          		</div>
-          		<div class="w3-half">
-            			<input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          		</div>
-        	</div>
-        	<input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        	<button class="w3-black w3-left w3-section" style="cursor: pointer" type="submit">Send</button>
-      	</form>
-</div>
-</div>
-</div>
+    <!-- end portfolio -->
 
-<script src="fancybox-master/dist/jquery-3.4.1.min.js"></script>
-<script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© André Baumgart</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+    <script src="fancybox-master/dist/jquery-3.4.1.min.js"></script>
+    <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
 
 </body>
 </html>
