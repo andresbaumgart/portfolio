@@ -1155,7 +1155,6 @@ textarea:focus {
     }
 }
 
-
 /* FONT IMAGE FORM */
 .w3-medium {
 	font-size:13px!important;
@@ -1169,4 +1168,13 @@ textarea:focus {
 
 .gallery {
 	margin-top:50px;
+}
+
+.topFixedBar
+{
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    height: 80px;
+    z-index: 4;
 }
