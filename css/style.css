@@ -1178,3 +1178,24 @@ textarea:focus {
     height: 80px;
     z-index: 4;
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 1.2%;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #8a2b06;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+#myBtn:hover {
+  background-color: #541c06;
+}
+
