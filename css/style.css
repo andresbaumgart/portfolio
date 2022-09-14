@@ -954,12 +954,13 @@ textarea:focus {
     }
 }
 
-/* FONT IMAGE FORM */
+/* Custom
+==================================================*/
+
 .w3-medium {
 	font-size:13px!important;
 }
 
-/* FONT IMAGE CAPTION */
 .w3-large {
 	font-size:14px!important;
 	color: #000000;	
@@ -982,7 +983,7 @@ textarea:focus {
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 1.2%;
+  right: 16.5px;
   z-index: 99;
   font-size: 18px;
   border: none;
