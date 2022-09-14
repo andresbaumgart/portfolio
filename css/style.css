@@ -66,7 +66,7 @@ a {
 }
 
 .color {
-    color: #913500;
+    color: #8a2b06;
     font-size: 11px;
 }
 
@@ -85,7 +85,7 @@ h3 {
 }
 
 h5 {
-    color: #913500;
+    color: #8a2b06;
 }
 
 
@@ -127,7 +127,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #913500;
+    background-color: #8a2b06;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -375,7 +375,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #913500;
+    color: #8a2b06;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -429,7 +429,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #913500 !important;
+    color: #8a2b06 !important;
 }
 
 .box-intro h5 {
@@ -702,7 +702,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #913500;
+    background-color: #8a2b06;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -759,7 +759,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #913500;
+    background-color: #8a2b06;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -872,7 +872,7 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #913500;
+    background-color: #8a2b06;
     opacity: 1;
     color: #fff;
 }
@@ -1018,7 +1018,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #913500;
+    color: #8a2b06;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1039,7 +1039,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #913500;
+    background: #8a2b06;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1053,7 +1053,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #913500;
+    background: #8a2b06;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1080,7 +1080,7 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #913500;
+    color: #8a2b06;
 }
 
 
