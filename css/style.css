@@ -869,25 +869,11 @@ footer img {
   background-color: #541c06;
 }
 
+.img-contact {
+  width: 10%;
+}
+
 .container {
-  border-radius: 5px;
   position: absolute;
-  top: 30%;
-  transform: translateY(-50%);
-}
-
-.column_l {
-  float: left;
-  width: 50%;
-  position: absolute;
-  left: 22%;
-}
-
-.column_r {
-  float: left;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  left: 55%;
-  top: 50px;
+  top: 10%;
 }
