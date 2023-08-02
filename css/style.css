@@ -869,11 +869,17 @@ footer img {
   background-color: #541c06;
 }
 
-.img-contact {
-  width: 10%;
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.container {
-  position: absolute;
-  top: 10%;
+.center-align {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
