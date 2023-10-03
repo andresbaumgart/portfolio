@@ -52,7 +52,7 @@ a {
 }
 
 .color {
-    color: #8a2b06;
+    color: #d60000;
     font-size: 0px;
 }
 
@@ -71,7 +71,7 @@ h3 {
 }
 
 h5 {
-    color: #8a2b06;
+    color: #d60000;
 }
 
 
@@ -113,7 +113,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #941f07;
+    background-color: #d60000;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -362,7 +362,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #8a2b06;
+    color: #d60000;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -416,7 +416,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #8a2b06 !important;
+    color: #d60000 !important;
 }
 
 .box-intro h5 {
@@ -752,7 +752,7 @@ footer img {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #8a2b06;
+    color: #d60000;
 }
 
 
@@ -861,7 +861,7 @@ footer img {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #8a2b06;
+  background-color: #d60000;
   color: white;
   cursor: pointer;
   padding: 5px;
