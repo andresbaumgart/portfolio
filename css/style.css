@@ -11,7 +11,9 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #666
+    color: #666;
+    margin-right: 0 !important;
+}
 }
 
 .no-padding {
@@ -349,6 +351,7 @@ h5 {
     text-decoration: none;
     font-weight: bold;
 }
+
 .box-primary-nav a:focus {
     outline: none;
 }
