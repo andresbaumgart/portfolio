@@ -16,15 +16,17 @@ body {
 }
 
 .text_title {
-	font-family: "HelveticaNeue-CondensedBold";
+	font-family: "Impact";
+	font-size: 25px;
 }
 
 .text_nav {
-	font-family: "HelveticaNeue-CondensedBold";
+	font-family: "Trebuchet MS";
+	font-size: 14px;
 }
 
 .text_contact {
-	font-family: "HelveticaNeue";
+	font-family: "Trebuchet MS";
 	margin-left: 20px;
 }
 
