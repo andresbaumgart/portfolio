@@ -37,7 +37,7 @@
   <div class="w3-hide-large" style="margin-top:83px"></div>
 
   <!-- Photo grid -->
-  <div class="w3-row fancybox-navigation">
+  <div class="w3-row fancybox-navigation portfolio">
       <div class="w3-third"><a href="portfolio/img0112.jpg" data-fancybox="gallery" class="lightbox" text-title" data-caption="XXXXXXXX &copy; André Baumgart"><img src="thumbnails/img0112t.jpg" style="width:100%" class="img-sequence easeload" onload="this.style.opacity=1" loading="lazy" alt=""></a></div>
       <div class="w3-third"><a href="portfolio/img0106.jpg" data-fancybox="gallery" class="lightbox" text-title" data-caption="XXXXXXXX &copy; André Baumgart"><img src="thumbnails/img0106t.jpg" style="width:100%" class="img-sequence easeload" onload="this.style.opacity=1" loading="lazy" alt=""></a></div>
       <div class="w3-third"><a href="portfolio/img0109.jpg" data-fancybox="gallery" class="lightbox" text-title" data-caption="XXXXXXXX &copy; André Baumgart"><img src="thumbnails/img0109t.jpg" style="width:100%" class="img-sequence easeload" onload="this.style.opacity=1" loading="lazy" alt=""></a></div>
@@ -184,25 +184,20 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 
-<script>
-    function init() {
-      var imgDefer = document.querySelectorAll(".img-sequence");
-      var lastLoadIndex = 0;
-      function loadNextImage() {
-        if (imgDefer.length === lastLoadIndex) {
+$(function () {
+   var $images = $('.portfolio img');
+   var lastLoadIndex = 0;
+   var loadNextImage = function () {
+      if ($images.length === lastLoadIndex) {
           return;
-        }
-        imgDefer[lastLoadIndex].addEventListener("load", loadNextImage);
-        imgDefer[lastLoadIndex].setAttribute(
-          "src",
-          imgDefer[lastLoadIndex].getAttribute("src")
-        );
-        lastLoadIndex += 1;
-      };
-      loadNextImage();
-    }
-    window.onload = init;
-</script>
+      }
+console.log('loading image at index ' + lastLoadIndex);
+      $images.eq(lastLoadIndex).attr('src', $images.eq(lastLoadIndex).attr('data-src'));
+      lastLoadIndex += 1;
+   };
+   $images.on('load', loadNextImage);
+   loadNextImage();
+});
 
 <style>
 .easeload{
