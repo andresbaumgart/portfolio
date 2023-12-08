@@ -195,7 +195,7 @@ function onClick(element) {
         imgDefer[lastLoadIndex].addEventListener("load", loadNextImage);
         imgDefer[lastLoadIndex].setAttribute(
           "src",
-          imgDefer[lastLoadIndex].getAttribute("data-src")
+          imgDefer[lastLoadIndex].getAttribute("src")
         );
         lastLoadIndex += 1;
       };
