@@ -36,3 +36,8 @@ body {
 span {
 	padding: 10px;
 }
+
+.column-load {
+	display: flex;
+	flex-direction: column;
+}
