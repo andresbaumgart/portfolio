@@ -42,3 +42,11 @@ span {
     	width: 100vw;
 	object-fit: cover;
 }
+
+.prev-next_50 {
+	width: 50%!important;
+}
+
+.prev_next_invisible {
+	opacity: 0!important;
+}
