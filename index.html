@@ -183,11 +183,10 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-</script>
 
 <script>
 function init() {
-      var imgDefer = document.querySelectorAll(".class="img-sequence");
+      var imgDefer = document.querySelectorAll(".img-sequence");
       var lastLoadIndex = 0;
       function loadNextImage() {
         if (imgDefer.length === lastLoadIndex) {
@@ -195,8 +194,8 @@ function init() {
         }
         imgDefer[lastLoadIndex].addEventListener("load", loadNextImage);
         imgDefer[lastLoadIndex].setAttribute(
-          "data-src",
-          imgDefer[lastLoadIndex].getAttribute("data-data-src")
+          "src",
+          imgDefer[lastLoadIndex].getAttribute("data-src")
         );
         lastLoadIndex += 1;
       };
