@@ -186,22 +186,17 @@ function onClick(element) {
 </script>
 
 <script>
-$(document).ready(function () {
-    var $images = $("img");
-    //First hide all images
-    $images.hide();
+$(document).ready(function() {
+    
+    $('img:not(:first)').hide();
+    
+    var refreshId = setInterval( function()
+    {
+        var $target = $('body img:first');
+        $target.hide().next().show();
+        $target.appendTo('body');
+    }, 1000);
 
-    function lazyLoad(num) {
-        $images.eq(num).fadeIn(function () {
-            if (num != $images.length) {
-                lazyLoad(++num);
-            }
-        });
-    }
-    //When first has loaded start fading in
-    $images.eq(0).load(function () {
-        lazyLoad(0);
-    });
 });
 </script>
 
