@@ -18,6 +18,7 @@ body {
 .text_title {
 	font-family: "Didot";
 	font-size: 23px;
+	font-color: black!important;
 }
 
 .text_nav {
@@ -44,7 +45,8 @@ span {
 }
 
 .prev-next_50 {
-	width: 50%!important;
+	width: 15%!important;
+	margin-top: 80px;
 }
 
 .prev_next_invisible {
