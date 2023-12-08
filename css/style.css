@@ -27,12 +27,10 @@ body {
 
 .text_contact {
 	font-family: "Trebuchet MS";
-	margin-left: 20px;
 }
 
-.aligned {
-	display: flex;
-	align-items: center;
+.text_align {
+	text-align: center;
 }
 
 span {
