@@ -166,6 +166,11 @@
 </div>
 
 <!-- scripts -->
+
+<script src="js/custom.js"></script>
+<script src="scripts/fancybox-master/dist/jquery-3.4.1.min.js"></script>
+<script src="scripts/fancybox-master/dist/jquery.fancybox.min.js"></script>
+
 <script>
 // Script to open and close sidebar
 function w3_open() {
@@ -184,25 +189,6 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 </script>
-
-<script>
-$(document).ready(function() {
-    
-    $('img:not(:first)').hide();
-    
-    var refreshId = setInterval( function()
-    {
-        var $target = $('body img:first');
-        $target.hide().next().show();
-        $target.appendTo('body');
-    }, 1000);
-
-});
-</script>
-
-<script src="js/custom.js"></script>
-<script src="scripts/fancybox-master/dist/jquery-3.4.1.min.js"></script>
-<script src="scripts/fancybox-master/dist/jquery.fancybox.min.js"></script>
 
 
 </body>
