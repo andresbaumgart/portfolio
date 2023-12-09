@@ -158,6 +158,13 @@
 <script src="scripts/fancybox-master/dist/jquery-3.4.1.min.js"></script>
 <script src="scripts/fancybox-master/dist/jquery.fancybox.min.js"></script>
 
+
+<script>
+	$('img').each(function(fadeInImg) {
+     $(this).delay(fadeInImg * 100).fadeIn(500);
+   });
+</script>
+
 <script>
 // Script to open and close sidebar
 function w3_open() {
@@ -177,11 +184,6 @@ function onClick(element) {
 }
 </script>
 
-<script>
-	$('img').each(function(fadeInImg) {
-     $(this).delay(fadeInImg * 100).fadeIn(500);
-   });
-</script>
 
 </body>
 </html>
