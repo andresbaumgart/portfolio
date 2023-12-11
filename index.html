@@ -39,6 +39,12 @@
 
     <!-- slideshow -->
 
+<script>
+	$('img').each(function(fadeInImg) {
+     $(this).delay(fadeInImg * 100).fadeIn(500);
+   });
+</script>
+
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
