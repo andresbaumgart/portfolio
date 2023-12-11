@@ -16,14 +16,14 @@ body {
 }
 
 .text_title {
-	font-family: "Guyot Text";
-	font-size: 28px;
+	font-family: "Didot";
+	font-size: 24px;
 	font-color: black!important;
 }
 
 .text_nav {
 	font-family: "Geneva";
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .text_contact {
