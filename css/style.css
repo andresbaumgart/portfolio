@@ -1,3 +1,11 @@
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../files/fonts/roboto-condensed-v27-latin-regular.woff2') format('woff2');
+}
+
 body {
 	height: 100%;
 	line-height: 1.8;
@@ -22,8 +30,8 @@ body {
 }
 
 .text_nav {
-	font-family: "Geneva";
-	font-size: 12px;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 14px;
 }
 
 .text_contact {
