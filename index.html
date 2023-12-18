@@ -69,11 +69,24 @@
 
 <!-- Your custom scripts -->
 <script>
-  $('.defered_loading').each(function() {
-    $(this).find('img').attr('src', $(this).find('img').data('delayedsrc'));
-  }).promise().done(function() {
-    // initialize your slider here
+$(document).ready(function() {
+  $('.carousel-item.defered_loading').each(function() {
+    var $img = $(this).find('img');
+    var src = $img.data('delayedsrc');
+    
+    // Load the image dynamically
+    var imgElement = new Image();
+    imgElement.src = src;
+    
+    // Once the image is loaded, update the src attribute of the actual image tag
+    imgElement.onload = function() {
+      $img.attr('src', src);
+    };
   });
+
+  // Initialize your slider here after all images are loaded
+  $('#carouselExampleControls').carousel();
+});
 </script>
 
 </body>
