@@ -170,30 +170,5 @@ function w3_close() {
 }
 </script>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // Lazy load images using Intersection Observer
-    var lazyLoadObserver = new IntersectionObserver(function(entries, observer) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          var lazyImage = entry.target;
-          lazyImage.src = lazyImage.getAttribute('data-src');
-          lazyLoadObserver.unobserve(lazyImage);
-        }
-      });
-    }, { rootMargin: '0px 0px 100px 0px' }); // Adjust the rootMargin as needed
-
-    // Observe each lazyload image
-    $('.lazyload').each(function() {
-      lazyLoadObserver.observe(this);
-    });
-  });
-</script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
 </body>
 </html>
