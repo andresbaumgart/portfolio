@@ -31,6 +31,15 @@
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- Page content -->
+
+<script>
+$('.defered_loading').each(function() {
+                $(this).attr('src', $(this).attr('delayedsrc'));
+            }).promise().done(function() {
+                // intialize your slider here
+            });
+</script>
+
 <div class="w3-main">
 
   <!-- Push down content on small screens --> 
@@ -162,14 +171,6 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
-</script>
-
-<script>
-$('.defered_loading').each(function() {
-                $(this).attr('src', $(this).attr('delayedsrc'));
-            }).promise().done(function() {
-                // intialize your slider here
-            });
 </script>
 
 
