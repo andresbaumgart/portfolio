@@ -165,9 +165,9 @@
 
 
 <script>
-	$('img').each(function(fadeInImg) {
-     $(this).delay(fadeInImg * 100).fadeIn(500);
-   });
+$('img').each(function(fadeInImg) {
+  $(this).delay(fadeInImg * 100).fadeIn(500);
+  });
 </script>
 
 <script>
@@ -187,6 +187,13 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
+</script>
+
+<script>
+$('[data-fancybox]').fancybox({
+  clickContent: 'close',
+  buttons: ['close']
+})
 </script>
 
 
