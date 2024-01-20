@@ -14,15 +14,15 @@
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
-  <a href="index.html" style="text-decoration:none"><h3 class="w3-padding-64 w3-center w3-text-black text_title"><b>André<br>Baumgart</b></h3></a>
-  <a href="portfolio.html" style="text-decoration:none" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey text_nav">PORTFOLIO</a> 
-  <a href="contact.html" style="text-decoration:none" onclick="w3_close()" class="w3-bar-item w3-button w3-text-grey text_nav">CONTACT</a> 
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-collapse w3-top w3-left" style="z-index:3;width:220px" id="mySidebar"><br>
+  <a href="index.html" style="text-decoration:none"><h3 class="w3-bar-item w3-left w3-text-black text_title">André Baumgart</h3></a>
+  <a href="portfolio.html" style="text-decoration:none" class="w3-bar-item w3-button w3-text-black text_nav">Portfolio</a> 
+  <a href="contact.html" style="text-decoration:none" class="w3-bar-item w3-button w3-text-black text_nav">About/Contact</a> 
 </nav>
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding text_title">André Baumgart</span>
+  <span class="w3-left w3-padding text_title_small">André Baumgart</span>
   <a href="javascript:void(0)" style="text-decoration:none" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
 </header>
 
@@ -30,7 +30,7 @@
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="" id="myOverlay"></div>
 
 <!-- Page content -->
-<div class="w3-main" style="margin-left:300px">
+<div class="w3-main" style="margin-left:250px">
 
   <!-- Push down content on small screens --> 
   <div class="w3-hide-large" style="margin-top:83px"></div>
@@ -45,10 +45,10 @@
   </div>
 
   <!-- Info section -->
-  <div class="w3-container w3-white w3-center w3-text-black w3-padding-32" id="info" >
-    <img src="files/contact.png" alt="" class="w3-image w3-padding-32" width="250" height="250">
-    <div class="w3-content w3-padding-32 text_contact text_align" style="max-width:600px; margin-top: -30px; ">
-<p>I am living in Vienna, Austria.<br>Feel free to contact me via:</p>
+  <div class="w3-container w3-white w3-left w3-text-black w3-padding-32" id="info" >
+    <img src="files/contact.jpg" alt="" class="w3-image image_contact" width="250" height="250">
+    <div class="w3-content w3-padding-32 text_contact" style="max-width:600px; margin-top: -30px">
+<p>Born in Schwelm, living in Vienna, Austria.<br>Feel free to contact me via:</p>
 	<p><a href= "mailto:mail@andrebaumgart.com">mail@andrebaumgart.com</a></p>
       </div>
     </div>
