@@ -1,0 +1,60 @@
+body {
+	height: 100%;
+	line-height: 1.8;
+	color: #666;
+	margin-right: 0 !important;
+}
+
+.w3-third img {
+	margin-bottom: 0px; 
+	opacity: 0.8; 
+	cursor: pointer
+}
+
+.w3-third img:hover {
+	opacity: 1
+}
+
+.text_title {
+	font-size: 18px;
+}
+
+
+.text_title_small {
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.text_nav {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+}
+
+
+.text_contact {
+	font-size: 12px;
+}
+
+.image_contact {
+	padding-top: 19px;
+	padding-bottom: 32px;
+}
+
+span {
+	padding: 10px;
+}
+
+.mySlides {
+	height: 100vh;
+    	width: 100vw;
+	object-fit: cover;
+}
+
+.prev-next_50 {
+	width: 50%!important;
+	margin-top: 80px;
+}
+
+.prev_next_invisible {
+	opacity: 0!important;
+}
